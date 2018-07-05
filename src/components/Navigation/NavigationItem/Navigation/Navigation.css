@@ -1,0 +1,51 @@
+
+.Navigation{
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+
+}
+.Navigation a{
+    color: brown;
+    text-decoration: none;
+    width: 100%;
+    border-bottom:4px solid transparent;
+
+}
+.Navigation a:hover,
+.Navigation a:active,
+.Navigation a.active{
+    color:blue;
+}
+
+@media(min-width: 500px) {
+    .Navigation{
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+
+    }
+    .Navigation a{
+        color: white;
+        text-decoration: none;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom:4px solid transparent;
+        box-sizing: border-box;
+        display: block;
+    }
+    .Navigation a:hover,
+    .Navigation a:active,
+    .Navigation a.active{
+        background-color: orangered;
+        border: 4px solid #40A4C8;
+        color:white;
+    }
+
+
+
+};
